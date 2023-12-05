@@ -31,4 +31,7 @@ Finally, various numbers of iterations of gradient descent are tested to find th
 * Do note that when we ran the script, when a plot pops up after a test, the script pauses until you exit out of the plot window, so make sure you exit the pop-up after looking at/saving the plot. This script takes a while to run, but there will be updates
 on its status within the console, so you can be assured it is running.
 
+***Design***
 
+The design of this project is simple. We created a script with functions to implement the update rule, gradient descent, prediction, and evaluation of MSE. These are implemented at the top of the script. After these functions are implemented, data is cleaned. Following this section, tests are performed using the functions designed above. We intended to keep
+this simple and not overcomplicate the process by creating classes etc.
